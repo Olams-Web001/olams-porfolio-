@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">OLams Portfolio</a>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-icon" id="menuIcon">
+            <span>&#9776;</span> <!-- This is the hamburger menu icon -->
+        </div>
+    </nav>
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, I'm OLams</h1>
+            <p>I'm a web developer passionate about creating efficient and beautiful websites.</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="1.webp" alt="Project 1">
+                <h3>Business Consultant</h3>
+                <p>Empowering businesses with strategic insights and tailored solutions for sustainable growth.</p>
+                <a href="https://github.com/yourusername/project1" target="_blank">View Code</a>
+                <a href="https://yourprojectlive.com" target="_blank">Live Demo</a>
+            </div>
+            <div class="project-card">
+                <img src="3.webp" alt="Project 2">
+                <h3>A Cleaning Company </h3>
+                <p>Experience the joy of a clean space with our reliable, eco-friendly cleaning services for homes and businesses.</p>
+                <a href="https://github.com/yourusername/project2" target="_blank">View Code</a>
+                <a href="https://yourprojectlive.com" target="_blank">Live Demo</a>
+            </div>
+            <!-- Add more projects as needed -->
+            <div class="project-card">
+                <img src="4.webp" alt="Project 2">
+                <h3>Photography Website </h3>
+                <p>Experience the joy of a clean space with our reliable, eco-friendly cleaning services for homes and businesses.</p>
+                <a href="https://github.com/yourusername/project2" target="_blank">View Code</a>
+                <a href="https://yourprojectlive.com" target="_blank">Live Demo</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi, I'm OLams, a passionate web developer with a knack for creating clean, efficient, and dynamic websites. I specialize in front-end development using HTML, CSS, and JavaScript, with experience in modern frameworks like React. I love turning ideas into reality and solving complex coding challenges.</p>
+                <p>When I'm not coding, I enjoy learning new technologies, contributing to open-source projects, and continuously improving my craft. Let's build something amazing together!</p>
+            </div>
+            <div class="about-image">
+                <img src="ma.png" alt="OLams">
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Interested in working together? Feel free to reach out using the form below or connect with me via social media!</p>
+        <form action="https://formspree.io/f/mwpkkjpq" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="_replyto" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <p id="success-message" style="display:none;">Thank you! Your message has been sent.</p>
+
+    
+    <footer>
+<div class="social-media">
+    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+    <a href="https://wa.me/23409136855207?text=This%20is%20OLams%20web%20developer%20how%20can%20we%20help%20you%3F
+    "><ion-icon name="logo-whatsapp"></ion-icon></a>
+    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+</div>
+        <p>&copy; 2024 OLams. All rights reserved.</p>
+    </footer>
+
+
+
+    <script src="cript.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
